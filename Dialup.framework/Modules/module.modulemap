@@ -1,0 +1,6 @@
+framework module Dialup {
+  umbrella header "Dialup.h"
+
+  export *
+  module * { export * }
+}
