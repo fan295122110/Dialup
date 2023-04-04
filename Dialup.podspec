@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Dialup"
-  spec.version      = "1.1.15"
+  spec.version      = "1.1.16"
   spec.summary      = "DialupFramework"
 
   # This description is used to generate tags and improve search results.
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #
 
   #spec.source_files  = "Dialup/Classes/**/*.{h,m}"
-  #spec.source_files  = "Dialup/Dialup/Dialup.framework/Headers/*.{h,m}"
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "Dialup/Classes/Dialup.framework/Headers/*.{h,m}"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
