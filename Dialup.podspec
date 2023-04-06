@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Dialup"
-  spec.version      = "1.1.17"
+  spec.version      = "1.1.18"
   spec.summary      = "DialupFramework"
 
   # This description is used to generate tags and improve search results.
@@ -141,7 +141,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   
-  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64' }
+  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
 
 
 end
